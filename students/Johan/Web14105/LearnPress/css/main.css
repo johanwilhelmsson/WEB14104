@@ -1,0 +1,300 @@
+/* YOUR STYLESHEETS UNDER HERE :) */
+
+
+@font-face
+{
+font-family:	font1; 
+src:	url('Raleway-Light.ttf');
+}
+
+body
+{
+/*
+  background: url(Pictures/background.jpg) no-repeat center center fixed; 
+*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    margin:             0;
+    font-family: font1;
+}
+
+#sweden{
+    position:   absolute;
+    left:       96.4%;
+    top:        -0.6%;
+    opacity:    .3;
+    transition: all .3s linear;
+}
+#sweden:hover{
+    opacity: 1;
+}
+
+#england{
+    position:   absolute;
+    left:       93%;
+    opacity:    .3;
+    transition: all .3s linear;
+}
+#england:hover{
+    opacity: 1;
+}
+
+img
+{
+    max-width:          100%;
+    margin:             0;
+    padding:            0;
+    border:             none;
+}
+
+ul
+{
+
+    position:       absolute;
+    list-style:     none;
+    top:            48%;
+    width:          100%;
+    text-align:     center;
+    padding:        0;
+}
+
+li 
+{
+    display: inline-block;
+    border: .07em solid;
+    padding: .6% 1%;
+    border-radius: .7em;
+    width: 10%;
+    margin: 0 2%;
+}
+
+#mail
+{
+    margin-bottom: -4.2em;
+    position:       relative;
+    text-align:     center;
+    color: white;
+}
+
+#phone
+{
+    position: relative;
+    top:        97%;
+    color:      white;
+    text-align: center;
+}
+
+li
+{
+transition: all .3s linear;
+}
+
+li:hover
+{
+    background: rgba(255,0,0,0.5);
+}
+
+#blue
+{
+    transition: all .3s linear;
+}
+
+#blue:hover
+{
+    background: rgba(0,43,255,0.5);
+}
+
+#green
+{
+    transition: all .3s linear;
+}
+
+#green:hover
+{
+    background: rgba(0,255,0,0.5);
+}
+
+#teal
+{
+    transition: all .3s linear;
+}
+
+#teal:hover
+{
+    background: rgba(0,255,255,0.5);
+}
+
+#Logga
+{
+    position:       absolute;
+    display:        block;
+    max-width:      25%;
+    opacity:        .06;
+    left:           3px;
+}
+
+
+a:link      {color:black; text-decoration:none;}
+a:visited   {color:black; text-decoration:none;}
+a:hover     {color:black;}
+a:active    {color:black;}
+
+
+
+
+
+
+
+/*Picture pages*/
+
+/*div
+{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+}*/
+
+
+.item
+{
+    width: 40%
+}
+
+
+img
+{
+    display: block;
+}
+
+
+
+
+
+
+
+/* About me */
+
+.jag
+{
+/*    margin: auto;*/
+    position: absolute;
+    left:       64.8%;
+    width: 35%;
+    height: 300px;
+    border: 1px solid black;
+    
+}
+
+.text
+{
+    position:           absolute;
+    top:                8%;
+    left:               20%;
+    width:              50%;
+    height:             700px;
+/*    border:             1px solid black;*/
+    background-color:   white;
+    opacity:            .6;
+    box-shadow:         0px 0px 50px #888888;
+}
+
+
+
+
+/*-------------MASONRY--------------*/
+
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+/* ---- grid ---- */
+
+.grid {
+  max-width: 1200px;
+/*
+    background-color: gray;
+*/
+    
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 161px;
+  height: 120px;
+  float: left;
+  border: 2px solid #ffffff;
+  border-color: #ffffff;
+  border-radius: 1px;
+  overflow: hidden;
+}
+.grid-item--width1 { width: 250px; }
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 430px; }
+.grid-item--width4 { width: 480px; }
+.grid-item--width5 { width: 640px; }
+.grid-item--width6 { width: 640px; }
+.grid-item--width7 { width: 960px; }
+.grid-item--width10 { width: 380px; }
+
+.grid-item--height1 { height: 150px; }
+.grid-item--height2 { height: 210px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 320px; }
+.grid-item--height5 { height: 420px; }
+.grid-item--height6 { height: 484px; }
+.grid-item--height7 { height: 575px; }
+
+
+.footer {
+    position:   absolute;
+    width:      100%;
+    height:     8%;
+    background-color: black;
+    
+}
+
+
+.back{
+    position:       fixed;
+    border:         1px solid;
+    border-color:   rgba(255,0,0,0.5);
+    top:            5%;
+    left:           5%;
+    padding:        .3% 1%;
+    border-radius: .7em;
+    width:          4.6%;
+}
+
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
